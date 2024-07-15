@@ -2,11 +2,11 @@ export const THEME_CONFIG: App.Locals['config'] = {
   /** blog title */
   title: "活版印字",
   /** your name */
-  author: "Typography",
+  author: "Andrew Humble",
   /** website description */
-  desc: "Rediscory the beauty of typography",
+  desc: "Daily fantasy predictions backed by data",
   /** your deployed domain */
-  website: "https://astro-theme-typography.vercel.app/",
+  website: "https://https://fantasy-blog.vercel.app/",
   /** your locale */
   locale: "en-us",
   /** theme style */
@@ -15,7 +15,7 @@ export const THEME_CONFIG: App.Locals['config'] = {
   socials: [
     {
       name: "github",
-      href: "https://github.com/moeyua/astro-theme-typography",
+      href: "https://github.com/ahumble",
     },
     {
       name: "rss",
@@ -32,7 +32,7 @@ export const THEME_CONFIG: App.Locals['config'] = {
   ],
   /** your header info */
   header: {
-    twitter: "@moeyua13",
+    twitter: "@andrewhumble_",
   },
   /** your navigation links */
   navs: [
