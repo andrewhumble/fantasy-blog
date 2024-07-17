@@ -6,7 +6,7 @@ export const THEME_CONFIG: App.Locals['config'] = {
   /** website description */
   desc: "Daily fantasy predictions backed by data",
   /** your deployed domain */
-  website: "https://andrewhumble.dev/fantasy-forecast",
+  website: "https://andrewhumble.dev/",
   /** your locale */
   locale: "en-us",
   /** theme style */
