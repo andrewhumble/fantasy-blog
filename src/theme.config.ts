@@ -6,7 +6,7 @@ export const THEME_CONFIG: App.Locals['config'] = {
   /** website description */
   desc: "Daily fantasy predictions backed by data",
   /** your deployed domain */
-  website: "https://https://fantasy-blog.vercel.app/",
+  website: "https://andrewhumble.dev/fantasy-forecast",
   /** your locale */
   locale: "en-us",
   /** theme style */

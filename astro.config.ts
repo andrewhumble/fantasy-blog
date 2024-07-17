@@ -9,6 +9,7 @@ import react from '@astrojs/react';
 
 // https://astro.build/config
 export default defineConfig({
+  base: '/fantasy-forecast/',
   site: THEME_CONFIG.website,
   prefetch: true,
   markdown: {

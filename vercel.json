@@ -4,17 +4,6 @@
         "source": "/fantasy-forecast/:path*",
         "destination": "/:path*"
       }
-    ],
-    "headers": [
-      {
-        "source": "/(.*)",
-        "headers": [
-          {
-            "key": "Cache-Control",
-            "value": "s-maxage=0"
-          }
-        ]
-      }
     ]
   }
   
