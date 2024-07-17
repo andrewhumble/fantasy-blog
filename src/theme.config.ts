@@ -1,8 +1,8 @@
 export const THEME_CONFIG: App.Locals['config'] = {
   /** blog title */
-  title: "活版印字",
+  title: "fantasy-forecast",
   /** your name */
-  author: "Andrew Humble",
+  author: "andrewhumble.dev/",
   /** website description */
   desc: "Daily fantasy predictions backed by data",
   /** your deployed domain */
