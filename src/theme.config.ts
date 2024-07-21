@@ -41,12 +41,12 @@ export const THEME_CONFIG: App.Locals['config'] = {
       href: "/posts/page/1",
     },
     {
-      name: "Archive",
-      href: "/archive",
+      name: "Projections",
+      href: "/projections",
     },
     {
-      name: "Categories",
-      href: "/categories"
+      name: "Explainer",
+      href: "/explainer",
     },
     {
       name: "About",

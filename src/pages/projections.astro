@@ -1,0 +1,19 @@
+---
+// Import necessary modules
+import Post from '~/components/Post.astro'
+import { getPosts, getPostDescription } from '~/utils'
+import LayoutDefault from "~/layouts/LayoutDefault.astro"
+
+var posts = await getPosts()
+posts = posts.filter(post => post.data.categories.includes('projections'))
+posts.sort((a, b) => new Date(b.data.pubDate).getTime() - new Date(a.data.pubDate).getTime())
+const entry = posts[0];
+const { Content } = await entry.render()
+
+---
+
+<LayoutDefault>
+  <Post post={entry}>
+    <Content />
+  </Post>
+</LayoutDefault>

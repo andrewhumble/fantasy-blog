@@ -7,11 +7,20 @@ const { ...attrs } = Astro.props
 
 const year = new Date().getFullYear()
 
-const { website, author } = Astro.locals.config
+const { website, author, socials } = Astro.locals.config
 ---
 
-<footer font-bold text-3 un-flex="~ col gap-1" un-lg="gap-3.5" {...attrs}>
-  <p>
+<footer font-bold un-flex="~ col gap-1" {...attrs}>
+  <ul un-flex="~ row">
+    {
+      socials.map((soc) => (
+        <li>
+          <a href={soc.href} target="_blank" title={soc.name} class={`icon i-mdi-${soc.name}`} />
+        </li>
+      ))
+    }
+  </ul>
+  <p text-3>
     © {year}
     <a target="_blank" href={website} rel="noopener noreferrer">{author}</a>
   </p>
